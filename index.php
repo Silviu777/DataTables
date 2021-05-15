@@ -33,7 +33,8 @@
                                </tr>  
                           </thead>  
                           <?php  
-                          while($row = mysqli_fetch_array($result))  // converteste datele extrase din tabela
+                      
+                          while($row = mysqli_fetch_array($result))
                           {  
                                echo '  
                                <tr>
@@ -52,8 +53,9 @@
            </div>  
       </body>  
  </html>  
+
  <script>  
  $(document).ready(function(){  
       $('#employee_data').DataTable();  
  });  
- </script>  
+ </script> 
